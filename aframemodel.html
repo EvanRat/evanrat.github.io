@@ -6,7 +6,7 @@
     <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v5.0.1/dist/aframe-extras.min.js"></script>
     </head>
     <body>
-        <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false'>
+        <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false' light="defaultLightsEnabled: false">
             <a-marker preset="hiro"> 
                 <a-gltf-model position="0 0 0" rotation = "0 0 0" scale = "2 2 2" src="./assets/piston.gltf"></a-gltf-model>
                 
